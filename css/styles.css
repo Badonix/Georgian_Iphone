@@ -1,0 +1,319 @@
+@import url("//cdn.web-fonts.ge/fonts/alk-rounded-mtav-med/css/alk-rounded-mtav-med.min.css");
+@import url("//cdn.web-fonts.ge/fonts/bpg-banner/css/bpg-banner.min.css");
+#title {
+  background-color: #1a1a1d;
+  color: #fff;
+}
+
+h1 {
+  font-family: "ALK Rounded Mtav Med", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  animation: textComing 1s ease-in-out forwards;
+  transition: 0.5s;
+}
+
+.navbar-brand:hover {
+  font-size: 2.6rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+#title {
+  transition: 1ms;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+  animation: monitorIn 7s ease-in-out forwards;
+}
+
+.title-image {
+  width: 90%;
+  right: 20%;
+  transition: 0.5s;
+  animation: monitorIn 6s ease-in-out forwards;
+}
+
+.title-image:hover {
+  width: 95%;
+}
+
+.features_btm {
+  color: #8f8f8f;
+}
+
+.feature_icon {
+  color: #1a1a1d;
+  transition: 0.5s;
+  margin-bottom: 1rem;
+}
+
+.text-light {
+  animation: agweraAnim 6s ease-in-out forwards;
+  transition: 0.5s;
+}
+
+.text-light:hover {
+  font-size: 3.6rem;
+}
+
+.feature_icon:hover {
+  color: #4e4e50;
+  font-size: 4.2rem;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+}
+.feature_tlt {
+  transition: 0.5s;
+}
+.feature_tlt:hover {
+  font-size: 2rem;
+}
+
+.feature_desc {
+  transition: 0.5s;
+}
+
+.feature_desc:hover {
+  font-size: 1.1rem;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 7%;
+}
+
+.feature-box:hover {
+}
+.iafi:hover {
+  font-size: 1.1rem;
+}
+.uzlieresi:hover {
+  font-size: 1.1rem;
+}
+.garantia:hover {
+  font-size: 1.1rem;
+}
+#testimonials {
+  text-align: center;
+  background-color: #4e4e50;
+  color: #fff;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.2;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  width: 20%;
+  margin: 30px;
+}
+
+#press {
+  background-color: #4e4e50;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 25px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+#cta {
+  background-color: #1a1a1d;
+  color: white;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.cta-heading {
+  font-size: 3.5rem;
+  line-height: 1, 5;
+}
+.satesto_gilaki {
+  margin-top: 2rem;
+}
+
+#footer {
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.social-icon {
+  margin: 20px 10px;
+  cursor: pointer;
+  font-size: 2rem;
+  transition: 0.5s;
+  text-decoration: none;
+  color: black;
+}
+.download-anchor {
+  text-decoration: none;
+  color: white;
+}
+
+.social-icon:hover {
+  color: #4e4e50;
+}
+
+@media (max-width: 1028px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+  #title {
+    text-align: center;
+  }
+}
+
+.karuselianim {
+  animation: karuseli 2s ease-in-out forwards;
+}
+
+.fasi_satauri {
+  animation: fasi_satauri 1s ease-in-out forwards;
+}
+
+.fasi_karta {
+  animation: fasi_satauri 1s ease-in-out forwards;
+}
+
+@keyframes fasi_satauri {
+  0% {
+    transform: translateY(-30px);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(-30px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes karuseli {
+  0% {
+    opacity: 0;
+    transform: translateY(-30);
+    transform: translateX(-30);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+    transform: translateX(0);
+  }
+}
+
+.nav-link {
+  color: red;
+}
+@keyframes monitorIn {
+  0% {
+    transform: translateY(-30px);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(-30px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes photoComing {
+  0% {
+    transform: translateY(-30px);
+    opacity: 0;
+  }
+  10% {
+    transform: translateY(-30px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes textComing {
+  0% {
+    opacity: 0;
+    transform: translateY(-40px);
+    color: rgb(4, 4, 31);
+  }
+  100% {
+    color: white;
+    opacity: 100%;
+    transition: translateY(0);
+  }
+}
+
+@keyframes agweraAnim {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  30% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+    transform: translateY(0);
+  }
+}
+
+.square-animation {
+  animation: textComing 1s;
+}
+
+.testimonial_img1 {
+  width: 300px;
+  height: 500px;
+}
+.testimonial_img2 {
+  width: 500px;
+  height: 500px;
+}
+.testimonial_img3 {
+  width: 400px;
+  height: 500px;
+}
